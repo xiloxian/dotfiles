@@ -25,7 +25,7 @@ def download_video(url, output_dir, quality, ext):
 def main():
     parser = argparse.ArgumentParser(description="Скрипт для скачивания видео с YouTube через yt-dlp из файла с URL")
     parser.add_argument("-i", "--input", default="urls1808.txt", help="Файл с URL (по одному в строке), по умолчанию urls.txt")
-    parser.add_argument("-o", "--output", default="wow_downloads", help="Папка для сохранения видео, по умолчанию ./downloads")
+    parser.add_argument("-o", "--output", default="downloads", help="Папка для сохранения видео, по умолчанию ./downloads")
     parser.add_argument("-q", "--quality", default="720", help="Желаемое качество видео, например 1080, 720")
     parser.add_argument("-e", "--ext", default="mp4", help="Желаемый формат видео, например mp4, mkv")
 
