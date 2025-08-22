@@ -1,7 +1,7 @@
 #!/bin/bash
 
-snapshots_dir="/home/x9es/Загрузки/snapshots"
-obsidian_dir="$HOME/Documents/Cybersecurity_Knowledge_Base/attachments"
+snapshots_dir="/home/user/Загрузки/snapshots"
+obsidian_dir="$HOME/Documents/Knowledge_Base/attachments"
 
 mkdir -p "$obsidian_dir"
 
