@@ -1,0 +1,70 @@
+[general]
+import = ["/home/x9es/.config/alacritty/themes/custom.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"
+
+[env]
+TERM = "alacritty"
+
+[font]
+builtin_box_drawing = true
+size = 21.0
+
+[font.bold]
+style = "Bold"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+[font.italic]
+style = "Italic"
+
+[font.normal]
+#family = "FiraMono Nerd Font"
+#style = "Regular"
+#family = "JetBrainsMonoNerdFontMono"
+family = "0xProtoNerdFont"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Y"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "W"
+mods = "Alt"
+
+[scrolling]
+history = 100000
+multiplier = 6
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\\t"
+
+[terminal]
+shell = { program = "/bin/bash" }
+
+[window]
+dynamic_title = true
+opacity = 0.50
+title = "Alacritty"
+
+dimensions = { columns = 120, lines = 30 }
+padding = { x = 5, y = 5 }
+
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
